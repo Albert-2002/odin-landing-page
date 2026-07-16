@@ -7,4 +7,26 @@
 * {
   margin: 0;
   padding: 0;
+  /* border: 1px solid purple; */
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+header {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
 }
