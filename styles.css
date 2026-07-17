@@ -7,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid purple; */
+  border: 1px solid purple;
 }
 
 body {
@@ -29,4 +29,66 @@ header {
 nav {
   display: flex;
   gap: 1rem;
+}
+
+nav a:hover {
+  color: aquamarine;
+  cursor: pointer;
+}
+
+main.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1f2937;
+  padding: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+  height: 400px;
+}
+
+.hero-section-text {
+  color: #ffffff;
+  padding: 60px;
+}
+
+.hst {
+  padding-bottom: 20px;
+}
+
+.hero-section-text-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-section-text-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-section-text-button {
+  background-color: #3882f6;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-section-text-button:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.hero-section-image {
+  background-color: #9ca3af;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+  border-radius: 8px;
 }
