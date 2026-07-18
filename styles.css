@@ -1,3 +1,5 @@
+/* Global resets and standard font */
+
 *,
 *::before,
 *::after {
@@ -14,14 +16,14 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* Header Styles */
+
 header {
-  color: #ffffff;
+  color: #f9faf8;
   background-color: #1f2937;
   display: flex;
   align-items: center;
-  padding: 1rem;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 20px 50px;
   justify-content: space-between;
 }
 
@@ -35,79 +37,51 @@ nav a:hover {
   cursor: pointer;
 }
 
-main.hero-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+/* Hero Section Styles */
+
+.hero {
   background-color: #1f2937;
-  padding: 10px;
-  padding-left: 300px;
-  padding-right: 300px;
-  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px 50px;
 }
 
-.hero-section-text {
-  color: #ffffff;
-  padding: 60px;
-  padding-top: 20px;
+.hero-text {
+  max-width: 450px;
 }
 
-.hst {
+.hero-text h2 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
   padding-bottom: 20px;
 }
 
-.hero-section-text-title {
-  font-size: 48px;
-  font-weight: 900;
-  color: #f9faf8;
-}
-
-.hero-section-text-subtext {
-  font-size: 18px;
+.hero-text p {
   color: #e5e7eb;
+  font-size: 18px;
+  padding-bottom: 20px;
 }
 
-.hero-section-text-button {
-  background-color: #3882f6;
-  color: #ffffff;
+.hero-text button {
+  background-color: #3b82f6;
+  color: #f9faf8;
   padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 4px;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.hero-section-text-button:hover {
+.hero-text button:hover {
   background-color: #2563eb;
-  transform: translateY(-1px);
 }
 
-.hero-section-image {
-  background-color: #9ca3af;
-  height: 300px;
-  width: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #1f2937;
-  border-radius: 8px;
+.hero-text button:active {
+  background-color: #1d4ed8;
 }
 
-.info-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f9faf8;
-  padding-top: 30px;
-}
-
-.info-heading {
-  font-size: 36px;
-  font-weight: 900;
-  color: #1f2937;
-}
-
-.image-array {
-  display: flex;
-  gap: 20px;
+.hero-image img {
+  width: 300px;
+  border: 1px solid #f9faf8;
 }
