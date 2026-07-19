@@ -131,3 +131,101 @@ nav a:hover {
 .information-card * {
   padding-bottom: 20px;
 }
+
+/* Quote Section Styles */
+
+.quote {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+  border: 1px solid #e5e7eb;
+}
+
+.quote-box {
+  max-width: 800px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote-author {
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: right;
+}
+
+/* Call To Action Styles */
+
+.call-to-action {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+  border: 1px solid #e5e7eb;
+}
+
+.call-to-action-box {
+  display: flex;
+  flex-direction: row;
+  gap: 111px;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border: none;
+  border-radius: 10px;
+}
+
+.call-to-action-text * {
+  padding-bottom: 5px;
+}
+
+.call-to-action-text h4 {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.call-to-action-text p {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.call-to-action button {
+  background-color: #f9faf8;
+  color: #1f2937;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.call-to-action button:hover {
+  background-color: #e5e7eb;
+}
+
+.call-to-action button:active {
+  background-color: #d1d5db;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  border: 1px solid #e5e7eb;
+  color: #f9faf8;
+}
